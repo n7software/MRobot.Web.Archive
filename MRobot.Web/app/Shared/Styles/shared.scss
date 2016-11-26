@@ -1,0 +1,5 @@
+﻿/* Load all the common colors and mix-ins */
+@import 'config/colors.scss';
+
+@import 'mixins/_breakpoints.scss';
+@import 'mixins/bourbon/_bourbon.scss';

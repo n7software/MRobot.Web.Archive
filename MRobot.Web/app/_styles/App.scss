@@ -1,0 +1,28 @@
+﻿@import '../Shared/Styles/shared.scss';
+
+html {
+    font-family: wf_segoe-ui_normal, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+}
+
+body {
+    color: $black;
+    background-color: $light;
+    user-select: none;
+    height: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#client {
+    height: 100%;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+
+    .main-content { 
+        background-color: #ff6a00;
+    }
+}

@@ -1,0 +1,20 @@
+﻿@import '../../Shared/Styles/shared.scss';
+
+.left-panel {      
+    color: $white;
+    background-color: $dark-gray;    
+    float: left;
+    width: 20%;
+    max-width: 340px;
+
+    @include display(flex);
+    @include flex-direction(column);
+
+    @include media($mobile) {
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+}

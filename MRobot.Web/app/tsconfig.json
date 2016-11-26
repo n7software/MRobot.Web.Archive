@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "module": "commonjs",
+    "jsx": "preserve",
+    "target": "es6"
+  },
+  "compileOnSave": true,
+  "include": [
+    "typings/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
